@@ -19,15 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a95374a-7ab8-4778-b57f-47df1ffa5fe7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitingore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/learning.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-    </list>
+    <list default="true" id="7a95374a-7ab8-4778-b57f-47df1ffa5fe7" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,6 +49,7 @@
       <option name="presentableId" value="Default" />
       <updated>1599098050772</updated>
       <workItem from="1599098051911" duration="664000" />
+      <workItem from="1599104489735" duration="297000" />
     </task>
     <servers />
   </component>
@@ -73,6 +66,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="438" y="250" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599098153144">
