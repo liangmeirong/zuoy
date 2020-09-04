@@ -7,28 +7,65 @@
         .question{
             margin: 20px 0;
         }
+       
         .question .squre{
             width: 100px;
             height: 100px;
             background: yellow;
             margin-top: 10px;
+           
+
         }
+      .answer2,.answer21{  border: 1px solid blue;
+            background-color: pink;}
+        .answer2{
+            height: 200px;
+            width: 200px;
+            padding: 10px;
+          
+        }
+        .answer21{
+            height: 178px;
+            width: 178px;
+            padding: 10px;
+          
+        }
+        .answer3{text-align: center;}
+        .answer3 h{font-weight: bolder;font-size: 26px;}
+        .answer3 span{font-size: 12px;}
+        .answer3 p{font-size: 14px;color: #ccc;}
+        .answer3 .red:first-letter{color: red;}
+        .answer3 .green:first-letter{color: green;}
+
     </style>
 </head>
 <body>
     <div class="question question1">
         1. 请将下面的正方形的背景色改为绿色，不能修改原css。
-        <div class="squre"></div>
+        <div class="squre" style="background-color: green;"></div>
     </div>
     <div class="question question2">
         2. 请分别用标准盒模型，ie盒模型实现一个宽高为200px，padding为10px，border为1px 直线 蓝色，背景色为pink的图形。
         请用任意方式注明每个图形是哪种盒模型。(请在在answer2里面作答，位置不对认为没有作答)
-        <div class="answer answer2"></div>
+        <div class="answer answer2">
+<div class="answer21">大的外围正方形是标准盒子模型。小的正方形是ie盒子模型</div>
+        </div>
     </div>
     <div class="question question3">
         3. 请默写王维的《相思》。要求：标题为黑色，加粗，字号26px；作者为黑色，不加粗，字号12px；正文颜色为#ccc，不加粗，字号14px。"红"字为红色，
         "春"字为绿色。可以自行设置行高或其他。要求最终效果整洁漂亮。(请在在answer3里面作答，位置不对认为没有作答)
-        <div class="answer answer3"></div>
+        <div class="answer answer3">
+            <h>相思</h> <br>
+          <span>王维 (唐)</span> 
+           <p class="red">红豆生南国，</p>
+           <p class="green">春来发几枝。</p>
+           <p>愿君多采撷，</p>
+           <p>此物最相思。</p>
+    
+
+
+
+        </div>
     </div>
 </body>
 </html>
