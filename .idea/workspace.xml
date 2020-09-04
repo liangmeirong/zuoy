@@ -19,7 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a95374a-7ab8-4778-b57f-47df1ffa5fe7" name="Default Changelist" comment="第一次作业添加成绩单" />
+    <list default="true" id="7a95374a-7ab8-4778-b57f-47df1ffa5fe7" name="Default Changelist" comment="第一次作业添加成绩单">
+      <change afterPath="$PROJECT_DIR$/html/2020.09.04/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,9 +31,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -60,7 +63,8 @@
       <option name="presentableId" value="Default" />
       <updated>1599098050772</updated>
       <workItem from="1599098051911" duration="664000" />
-      <workItem from="1599104489735" duration="5805000" />
+      <workItem from="1599104489735" duration="6047000" />
+      <workItem from="1599217361712" duration="1301000" />
     </task>
     <task id="LOCAL-00001" summary="成绩单模块">
       <created>1599142895500</created>
