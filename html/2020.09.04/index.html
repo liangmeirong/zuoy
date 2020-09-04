@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>作业</title>
+    <link rel="stylesheet" type="text/css" href="./../../comment/index.css">
+    <script type="text/javascript" src="./../../comment/index.js"></script>
     <style type="text/css">
         .question{
             margin: 20px 0;
@@ -15,6 +17,13 @@
             margin-top: 10px;
            
 
+        }
+        .img-wrapper img{
+            width: 100%;
+            height: 100%;
+        }
+        .img-wrapper .img2{
+            margin-top: 20px;
         }
       .answer2,.answer21{  border: 1px solid blue;
             background-color: pink;}
@@ -61,11 +70,27 @@
            <p class="green">春来发几枝。</p>
            <p>愿君多采撷，</p>
            <p>此物最相思。</p>
-    
+
 
 
 
         </div>
     </div>
+    <h3 class="compare">
+        以下为部分代码对比：
+    </h3>
+    <div class="img-wrapper">
+        <div class="img1">
+            <img src="./1@2x.png" alt="">
+        </div>
+        <div class="img2">
+            <img src="./2@2x.png" alt="">
+        </div>
+    </div>
+    <script type="text/javascript">
+        document.write(dom1 + 8 + dom2 + '效果虽然实现了，但仔细看了代码，有h 标签么？h1-h6标签是块级元素，不需要br标签来换行。' +
+            '代码不整洁，小可爱可以参考我的代码是怎么排版的，子元素要用一个空格或2个空格。不要有多余的大量留白，比如.answer3,' +
+            '要养成一个良好的书写习惯哦，不然以后的代码上千行，自己都分不清了！要修改一下代码的排版！' + dom3)
+    </script>
 </body>
 </html>
