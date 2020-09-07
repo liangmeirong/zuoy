@@ -20,11 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a95374a-7ab8-4778-b57f-47df1ffa5fe7" name="Default Changelist" comment="第一次作业添加成绩单">
-      <change afterPath="$PROJECT_DIR$/html/2020.09.04/1@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/2020.09.04/2@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/2020.09.07/homework.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/2020.09.07/question.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comment/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/comment/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/2020.09.04/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/2020.09.04/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/2020.09.04/3.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/2020.09.04/3.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +58,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/html/2020.09.07" />
       <recent name="$PROJECT_DIR$/html/2020.09.04" />
     </key>
   </component>
@@ -72,7 +72,8 @@
       <updated>1599098050772</updated>
       <workItem from="1599098051911" duration="664000" />
       <workItem from="1599104489735" duration="6047000" />
-      <workItem from="1599217361712" duration="2658000" />
+      <workItem from="1599217361712" duration="3695000" />
+      <workItem from="1599477229317" duration="1023000" />
     </task>
     <task id="LOCAL-00001" summary="成绩单模块">
       <created>1599142895500</created>
