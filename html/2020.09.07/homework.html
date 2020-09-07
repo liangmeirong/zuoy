@@ -6,6 +6,7 @@
     <style type="text/css">
         .question1{
             height: 360px;
+            
         }
         .question1 .wrapper{
             width: 50%;
@@ -13,9 +14,12 @@
             float: left;
             border: 1px solid #999;
             box-sizing: border-box;
+            
         }
         .question1 .wrapper1{
             border-right: none;
+            position: relative;
+            
         }
         .question1 .wrapper2{
             border-left: 1px dashed #999;
@@ -25,26 +29,76 @@
             height: 100px;
             background: aqua;
         }
-        .question2 .answer2{
+        .content1{position: absolute;
+                top:50% ;
+                left:50% ;
+                margin-left: -100px;
+                margin-top: -50px;}
+        .content2{margin: 0 auto;
+            margin-top: 100px;
+        }
+        .question2 {
             width: 100%;
             height: 500px;
             border: 1px solid #999;
+            
+
         }
+        .answer2{
+        width: 50%;
+        height: 350px;
+        border: 1px dotted grey;
+        margin: 0 auto;
+        position: relative;
+
+        }
+        .tu{}
+      
+        img{height: 40%;
+             width: 40%;
+             float: left;
+             position: absolute;
+             top:100px;
+             left:10%;
+
+             }
+        ul{list-style-type: none;
+        margin-right: 50px;
+        margin-top:60px ;
+        float: right;
+        
+      
+        }
+        .xi{font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+        }
+        
+         
     </style>
 </head>
 <body>
     <div class="question1">
         <h5>1、请用不同的方法实现下面子元素垂直水平居中。</h5>
         <div class="wrapper wrapper1">
-            <div class="content"></div>
+            <div class="content content1"></div>
         </div>
         <div class="wrapper wrapper2">
-            <div class="content"></div>
+            <div class="content content2"></div>
         </div>
     </div>
     <div class="question2">
         <h5>2、请实现下面的 <a href="question.jpeg" target="_blank">效果图</a>。</h5>
-        <div class="answer2"></div>
+        <div class="answer2">
+            <p class="xi">欢迎使用demo管理系统</p>
+            <div class="tu"><img src="p.gif" alt=""></div>
+            <ul>
+                <li>账号：<input type="text"></li>
+                <li>密码：<input type="text"></li>
+                <li>角色：管理员<input type="radio" name="jues">用户<input type="radio" name="jues"></li>
+                <li><input type="submit"></li>
+            </ul>
+        </div>
     </div>
 </body>
 </html>
