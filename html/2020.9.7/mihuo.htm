@@ -15,16 +15,19 @@
     .f2{width: 100px;
             height: 100px;
             border: 1px pink solid;
-            /* float: left;
-             */
+           
+             float: left;
+             position: relative;
             /* margin: 0 auto; 用了float此代码效果无效，  可以设置margin-left\margin这些*/
-            position: absolute;/* 不管你是否设置float，都回到最近定位父元素的左上位置  absolute不仅脱离文档、文本流*/
-            /* top: 200px;
-            left: 100px; */}
+           /*  position: absolute;;;/* 不管你是否设置float，都回到最近定位父元素的左上位置  absolute脱离文档、文本流*/
+         
+            top: 200px;
+            left: 100px; } 
     .f3{width: 100px;
             height: 100px;
             border: 1px grey solid;
-           /*  float: left; */
+          /*   float: right;
+            position: fixed; */
            /*  margin: 0 auto; 冲突与float*/
            /*  position: absolute; *//*不要float与absolute 只要用absolute就回到最近定位父元素的左上位置*/
             }
