@@ -20,12 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a95374a-7ab8-4778-b57f-47df1ffa5fe7" name="Default Changelist" comment="第一次作业添加成绩单">
-      <change afterPath="$PROJECT_DIR$/html/2020.09.08/1@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/2020.09.08/2@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/2020.09.08/3@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/2020.09.08/4@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/2020.09.08/test.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/2020.09.08/t.htm" beforeDir="false" afterPath="$PROJECT_DIR$/html/2020.09.08/t.htm" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +52,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -76,7 +73,8 @@
       <workItem from="1599098051911" duration="664000" />
       <workItem from="1599104489735" duration="6047000" />
       <workItem from="1599217361712" duration="3695000" />
-      <workItem from="1599477229317" duration="4704000" />
+      <workItem from="1599477229317" duration="6064000" />
+      <workItem from="1599746275094" duration="454000" />
     </task>
     <task id="LOCAL-00001" summary="成绩单模块">
       <created>1599142895500</created>
@@ -124,6 +122,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1599141208687" />
+    <state x="221" y="89" key="SettingsEditor" timestamp="1599630682481">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1599630682481" />
     <state x="320" y="186" key="Vcs.Push.Dialog.v2" timestamp="1599143389850">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
