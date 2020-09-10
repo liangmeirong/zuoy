@@ -1,0 +1,307 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: white;
+    font-size: 16px;
+}
+
+.clear {
+    clear: both;
+}
+
+.header {
+    width: 100%;
+    height: 72px;
+    background: rgb(255, 255, 255);
+    overflow: hidden;
+    position: fixed;/* 脱离文档流 */
+    top: 0px;
+    left: 0px;
+    z-index: 999;
+    box-shadow: 0 10px 20px rgb(224, 224, 224);
+}
+
+img {
+    width: 126px;
+    height: 63px;
+    float: left;
+    margin: 3px 0 0 10px;
+}
+
+.nav1 ul li {
+    list-style: none;
+    height: 72px;
+    line-height: 72px;
+    float: left;
+    margin-left: 15px;
+    color: grey;
+}
+
+.nav1 ul li:hover {
+    color: black;
+}
+
+.nav2 ul {
+    list-style: none;
+    float: right;/* 父元素右浮动子元素让它左浮动 */
+}
+
+.nav2 ul li {
+    height: 72px;
+    line-height: 72px;
+    float: left;
+    margin-right: 30px;
+    color: grey;
+    font-size: 14px;
+}
+
+.nav2 ul li.car {
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid grey;
+    border-radius: 30px;
+    padding: 1px 0 0 23px;
+    margin-top: 20px;
+    width: 60px;
+}
+
+.nav2 ul li:hover {
+    color: red;
+}
+
+.navimg {
+    width: 1200px;
+    height: 385px;
+    margin: 100px auto 0;
+    position: relative;
+
+}
+
+.nav3 {
+    width: 264px;
+    height: 381px;
+    background: rgb(35, 35, 41);
+    list-style: none;
+    position: absolute;
+    left: 45px;
+    border-radius: 10px 0 0 10px;
+    z-index: 10;
+
+}
+
+.nav3 ul li {
+    list-style: none;
+    height: 54px;
+    width: 260;
+    color: grey;
+    font-size: 15px;
+    margin-left: 20px;
+    padding-left: 20px;
+    border-radius: 10px 0 0 10px;
+    line-height: 54px;
+}
+
+.nav3 ul li:hover {
+    background: grey;
+    color: white;
+}
+
+.tu img {
+    width: 850px;
+    height: 382px;
+    position: absolute;
+    top: -3px;
+    left: 296px;
+}
+
+.jiuye {
+    width: 1200px;
+    height: 200px;
+    margin: 0 auto;
+    overflow: hidden;
+    /*  position: relative; */
+}
+
+.jiuye h2 {
+    height: 80px;
+    line-height: 80px;
+    margin-left: 45px;
+}
+
+.jiuye h2 span {
+    color: grey;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.jiuye div:nth-child(2) {
+    margin-left: 45px;
+}
+
+.jiuye div {
+    width: 260px;
+    height: 80px;
+    /* line-height: 80px; */
+    background: rgb(241, 241, 241);
+    border-radius: 10px;
+    float: left;
+    margin-left: 23px;
+}
+
+.jiuye div img {
+    width: 50px;
+    height: 50px;
+    margin: 16px 2px 0 10px;
+}
+
+.jiuye div h3 a {
+    text-decoration: none;
+    color: black;
+}
+
+.jiuye div h3 {
+    padding: 18px;
+}
+
+.jiuye div h3 a span {
+    font-size: 14px;
+    font-weight: lighter;
+    display: block;
+}
+
+.luxian {
+    width: 1200px;
+    margin: 0 auto;
+    height: 550px;
+
+}
+
+.luxian .nav4 {
+    height: 45px;
+    line-height: 45px;
+}
+
+.luxian p {
+    float: right;
+    font-size: 14px;
+    margin-right: 50px;
+}
+
+.luxian p a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav4 ul li h2 {
+    padding-left: 25px;
+}
+
+.nav4 ul li {
+    float: left;
+    list-style: none;
+    margin-left: 20px;
+}
+
+.luxian .nav4 ul li.red a {
+    color: red;
+    border-bottom: 2px red solid;
+}
+
+.nav4 ul li a {
+    text-decoration: none;
+    color: grey;
+    font-weight: lighter;
+    font-size: 14px;
+}
+
+.nav4 ul li a:hover {
+    color: red;
+}
+
+.luxian .nav5 {
+    width: 598px;
+    height: 160px;
+    float: left;
+    position: relative;
+}
+
+.luxian .nav5 a {
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+.luxian .nav5 a:hover h4 {
+    color: red;
+}
+
+
+.luxian .nav5 a h4 {
+    padding-top: 20px;
+}
+
+.luxian .nav5 a img {
+    width: 140px;
+    height: 140px;
+    margin: 10px 20px 0 45px;
+}
+
+.luxian .nav5 a span {
+    font-size: 14px;
+    color: grey;
+}
+
+.luxian .nav5 .end {
+    color: grey;
+    position: absolute;
+    font-size: 12px;
+    bottom: 30px;
+    left: 210px;
+}
+
+.content .footer {
+    width: 100%;
+    background: rgb(243, 243, 243);
+    height: 150px;
+    /* box-shadow: 0 -10px 10px rgb(221, 221, 221); */
+}
+
+.content .footer ul {
+    margin-left: 35px;
+}
+
+.content .footer li {
+    list-style: none;
+    width: 100px;
+    float: left;
+    margin: 40px 0 0 30px;
+    text-align: center;
+}
+
+.content .footer li a {
+    text-decoration: none;
+    color: grey;
+    font-size: 14px;
+}
+
+.content .footer li a:hover {
+    color: black;
+}
+
+.content .footer p {
+    color: grey;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+
+
+    
+
+
+
+    
