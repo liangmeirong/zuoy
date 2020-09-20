@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>js测试</title>
     <style type="text/css">
-        .question{
+        .question {
             margin-top: 20px;
         }
-        .question .title{
+
+        .question .title {
             font-size: 16px;
             line-height: 30px;
             font-weight: bold;
         }
-        .question .desc{
+
+        .question .desc {
             background: #cccccc;
             color: #333333;
             line-height: 26px;
@@ -20,6 +23,7 @@
         }
     </style>
 </head>
+
 <body>
     <div class="question">
         <div class="title">1、查找数组元素位置</div>
@@ -28,6 +32,11 @@
             示例 输入 [ 1, 2, 3, 4 ], 3 输出 2
         </div>
     </div>
+    <script>
+        var arr = [1, 2, 3, 4, 5, 6, 7];
+        var a = arr.indexOf(3);
+        console.log(a);
+    </script>
     <div class="question">
         <div class="title">2、数组求和</div>
         <div class="desc">
@@ -35,6 +44,13 @@
             示例 输入 [ 1, 2, 3, 4 ] 输出 10
         </div>
     </div>
+    <script>
+        var arr = [1, 2, 3, 4, 5, 6, 7], sum = 0;
+        for (var i = 0; i < arr.length; i++) {
+            sum = sum + arr[i];
+        }
+        console.log(sum);
+    </script>
     <div class="question">
         <div class="title">3、计数</div>
         <div class="desc">
@@ -43,6 +59,15 @@
             示例 输入 [1, 2, 4, 4, 3, 4, 3], 4 输出 3
         </div>
     </div>
+    <script>
+        var arr = [1, 2, 3, 4, 5, 3, 6, 7, 3], count = 0;
+        for (var i = 0; i < arr.length; i++) {
+            if (arr[i] == "3") {
+                count++;
+            }
+        }
+        console.log(count);
+    </script>
     <div class="question">
         <div class="title">4、求二次方</div>
         <div class="desc">
@@ -51,6 +76,14 @@
             示例 输入 [1, 2, 3, 4] 输出 [1, 4, 9, 16]
         </div>
     </div>
+    <script>
+        var arr = [1, 2, 3, 4, 5];
+        for (var i = 0; i < arr.length; i++) {
+            arr[i] = arr[i] * arr[i];
+        }
+
+        console.log(arr);
+    </script>
     <div class="question">
         <div class="title">5、打印出乘法口诀表</div>
         <div class="desc">
@@ -59,5 +92,19 @@
             1 * 2 = 2 &nbsp;&nbsp; 2 * 2 = 4
         </div>
     </div>
+    <script>
+        for (var i = 1; i < 10; i++) {
+            for (var j = 1; j < i + 1; j++) {
+                if ((i == 3 && j == 3) || i == 4 && j == 3) {
+                    document.write("&nbsp;&nbsp;" + j + "*" + i + "=" + j * i + "&nbsp;&nbsp;");
+
+                }
+                else { document.write(j + "*" + i + "=" + j * i + "&nbsp;&nbsp;"); }
+
+            }
+            document.write("<br>");
+        }
+    </script>
 </body>
+
 </html>
