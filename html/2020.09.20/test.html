@@ -33,9 +33,15 @@
         </div>
     </div>
     <script>
-        var arr = [1, 2, 3, 4, 5, 6, 7];
-        var a = arr.indexOf(3);
-        console.log(a);
+        var arr = [1, 2, 3, 4, ],i=2;
+        function getIndex(array,item){
+            var a = array.indexOf(item);index
+            return a;
+        }
+        var index=getIndex(arr,i);
+        document.write("输入"+arr+"&nbsp;"+i+"输出"+index);
+
+        
     </script>
     <div class="question">
         <div class="title">2、数组求和</div>
@@ -46,10 +52,12 @@
     </div>
     <script>
         var arr = [1, 2, 3, 4, 5, 6, 7], sum = 0;
-        for (var i = 0; i < arr.length; i++) {
-            sum = sum + arr[i];
-        }
-        console.log(sum);
+        function getSum(array){
+            for (var i = 0; i < array.length; i++) {
+            sum = sum + array[i];
+        }}
+        getSum(arr);
+        document.write("输入"+arr+"输出"+sum);
     </script>
     <div class="question">
         <div class="title">3、计数</div>
@@ -60,13 +68,19 @@
         </div>
     </div>
     <script>
-        var arr = [1, 2, 3, 4, 5, 3, 6, 7, 3], count = 0;
-        for (var i = 0; i < arr.length; i++) {
-            if (arr[i] == "3") {
-                count++;
-            }
+        var arr = [1, 2, 3, 4, 5, 3, 6, 7, 3];
+        function getCount(array,item){
+            var count = 0;
+            for (var i = 0; i < array.length; i++) {
+            if (array[i] == item) {
+                ++count;
+            }}
+            return count;
         }
-        console.log(count);
+        var count=getCount(arr,3);
+        document.write("输入"+arr+"&nbsp;"+"3"+"输出"+count);
+        
+       
     </script>
     <div class="question">
         <div class="title">4、求二次方</div>
@@ -78,11 +92,16 @@
     </div>
     <script>
         var arr = [1, 2, 3, 4, 5];
-        for (var i = 0; i < arr.length; i++) {
-            arr[i] = arr[i] * arr[i];
-        }
+        function getpf(array){
+            var array2=new Array();
+            for (var i = 0; i < array.length; i++) {
 
-        console.log(arr);
+                array2[i] = array[i] * array[i];
+        }
+            return array2;
+        }
+        var arr2=getpf(arr);
+        document.write("输入"+arr+"&nbsp;"+"输出"+arr2);
     </script>
     <div class="question">
         <div class="title">5、打印出乘法口诀表</div>
